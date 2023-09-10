@@ -1,6 +1,6 @@
 // App.jsx
 import React, { useState } from 'react';
-import NewComponent from './component/NewComponent'; // Importa el nuevo componente
+import NewComponent from './component/NewComponent'; 
 
 function App() {
   const [showNewComponent, setShowNewComponent] = useState(false);
