@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ProductImage from '../assets/image/Producto.jpg';
+import ProductImageII from '../assets/image/Product_II.jpg';
+import ProductImageIII from '../assets/image/Product_III.jpg';
 
 function MainView() {
   return (
@@ -38,8 +41,8 @@ function MainView() {
 
                       <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100 ">
 
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                      <img
+                          src={ProductImage}
                           alt=""
                           class="h-full w-full object-cover object-center"
                         />
@@ -55,15 +58,17 @@ function MainView() {
                     </div>
                     <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8 ">
                       <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
+                        
+                      <img
+                          src={ProductImageII}
                           alt=""
                           class="h-full w-full object-cover object-center"
                         />
                       </div>
+                      
                       <div class="h-64 w-44 overflow-hidden rounded-lg ">
                         <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
+                          src={ProductImageIII}
                           alt=""
                           class="h-full w-full object-cover object-center"
                         />
