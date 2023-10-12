@@ -82,7 +82,7 @@ function MainView() {
 
               <a
                 href="#"
-                class="inline-block rounded-md border border-transparent bg-yellow-400 px-10 py-2 text-center font-medium text-white text-xl hover:bg-indigo-700 hover:text-white"
+                class="inline-block rounded-md border border-solid border-2 border-indigo-600 bg-yellow-400 px-10 py-2 text-center font-medium text-white text-xl hover:bg-indigo-700 hover:text-white"
               >
                 Comprar    
               </a>
