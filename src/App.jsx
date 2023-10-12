@@ -4,6 +4,7 @@ import LandingPage from './components/LandingPage';
 import MainView from './components/MainView';
 import InfoView from './components/InfoView';
 import ContactView from './components/ContactView';
+import BuyView from "./components/BuyView";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/main" element={<MainView />} />
         <Route path="/info" element={<InfoView />} />
         <Route path="/contact" element={<ContactView />} />
+        <Route path="/buy" element={<BuyView />} />
       </Routes>
     </Router>
   );
