@@ -6,7 +6,7 @@ function InfoView() {
     <div  class="relative  h-screen bg-purple-200">
       <nav className="bg-blue-500 p-4">
         <Link to="/main" className="text-white px-4">Inicio</Link>
-        <Link to="/info" className="text-white px-4">Información</Link>
+        {/* <Link to="/info" className="text-white px-4">Información</Link> */}
         <Link to="/contact" className="text-white px-4">Contacto</Link>
       </nav>
       <main className="py-6 px-4 sm:p-6 md:py-10 md:px-8">

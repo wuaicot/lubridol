@@ -3,9 +3,11 @@ import { Link } from 'react-router-dom';
 import FotoYenny from '../assets/image/Yenny_perfil464x630.png';
 import LW from '../assets/image/logowhatsapp.png';
 import HeroSocial from '../components/Heroasocial/HeroSocial.jsx';
+import LGM from "../assets/image/logogmail.png";
 
 
 const cellPhone= "https://api.whatsapp.com/send/?phone=56963108651&text&app_absent=0";
+const correoYenny= "https://mail.google.com/mail/yennyguajardo7@gmail";
 
 function ContactView() {
   return (
@@ -27,7 +29,7 @@ function ContactView() {
             <blockquote>
               <p class="text-lg font-medium">
                 Hola 👋 quiero que pruebes 
-              "Lubridol" La solución natural para el dolor articular. Recupere su movilidad y calidad de vida. Fórmula efectiva respaldada por laboratorio de confianza. ¡Adiós al dolor, hola a la libertad!"
+              "Lubridol" La solución natural para el dolor articular. Recupere su movilidad y calidad de vida. Fórmula efectiva respaldada por laboratorio de confianza. ¡Adiós al dolor, hola a la libertad!
               </p>
             </blockquote>
             <figcaption class="font-medium">
@@ -42,7 +44,7 @@ function ContactView() {
           </div>
         </figure>
       </div>
-         <div>
+         <div class="p-4 flex justify-center space-x-4">
           <HeroSocial                
             src={LW}
             alt="phone-Sticker"
@@ -51,6 +53,16 @@ function ContactView() {
             href={cellPhone}
             target="_blank"
             linkName="Enlace al Chat"
+          />
+           
+          <HeroSocial
+            src={LGM}
+            alt="phone-Sticker"
+            title="wuaicot8@gmail.com"
+            header="gmail"
+            href={correoYenny}
+            target="_blank"
+            linkName="wuaicot8@gmail.com"
           />
           </div>
     </div>
