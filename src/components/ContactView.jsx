@@ -44,7 +44,8 @@ function ContactView() {
           </div>
         </figure>
       </div>
-         <div class="p-4 flex justify-center space-x-4">
+            <div class="flex text-white justify-center"><p>Contactame</p></div>
+         <div class="p-4 flex justify-center space-x-14">
           <HeroSocial                
             src={LW}
             alt="phone-Sticker"
