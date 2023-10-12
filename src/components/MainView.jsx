@@ -81,10 +81,10 @@ function MainView() {
               </div>
 
               <a
-                href="#"
-                class="inline-block rounded-md border border-solid border-2 border-indigo-600 bg-yellow-400 px-10 py-2 text-center font-medium text-white text-xl hover:bg-indigo-700 hover:text-white"
+                href="/contact"
+                class="inline-block rounded-md border border-solid border-2 border-white bg-yellow-400 px-10 py-2 text-center font-medium text-white text-xl hover:bg-white hover:text-yellow-400 "
               >
-                Comprar    
+                <strong>Comprar</strong>    
               </a>
               
             </div>
