@@ -20,7 +20,7 @@ function ContactView() {
       </nav>
       
 
-      <div class="p-4 mt-10 pt-10">
+      <div class="p-20 mt-10  pt-10">
         {/* Información de contacto del vendedor aquí */}
         <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
           
@@ -37,15 +37,17 @@ function ContactView() {
                 <h1>Yenny Guajardo</h1>
               </div>
               <div class="text-slate-700 dark:text-slate-500">
-                Auxiliar de Farmacia, Ventas.
+                Puedes contactarme 👇
 
               </div>
             </figcaption>
           </div>
         </figure>
-      </div>
-            <div class="flex text-white justify-center"><p>Contactame</p></div>
-         <div class="p-4 flex justify-center space-x-14">
+
+            </div>
+              {/* <div class=" flex text-white justify-center my-0 py-0"><strong><p>Contactame</p></strong>
+            </div> */}
+         <div class="p-0  my-0 flex justify-center space-x-14">
           <HeroSocial                
             src={LW}
             alt="phone-Sticker"
@@ -59,11 +61,11 @@ function ContactView() {
           <HeroSocial
             src={LGM}
             alt="phone-Sticker"
-            title="wuaicot8@gmail.com"
+            title="yennyguajardo7@gmail.com"
             header="gmail"
             href={correoYenny}
             target="_blank"
-            linkName="wuaicot8@gmail.com"
+            linkName="yennyguajardo7@gmail.com"
           />
           </div>
     </div>
