@@ -9,6 +9,7 @@ function InfoView() {
         <Link to="/main" className="text-white px-4">Inicio</Link>
         {/* <Link to="/info" className="text-white px-4">Información</Link> */}
         <Link to="/contact" className="text-white px-4">Contacto</Link>
+        <Link to="/buy" class="text-white px-4">Comprar</Link>
       </nav>
 
       <main className="py-6 px-4 sm:p-6 md:py-10 md:px-8">

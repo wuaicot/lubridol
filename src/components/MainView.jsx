@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProductImage from "../assets/image/Producto.jpg";
 import ProductImageII from "../assets/image/Product_II.jpg";
-//import ProductImageIII from "../assets/image/Product_III.jpg";
+import ProductImageIII from "../assets/image/Product_III.jpg";
 
 function MainView() {
   return (
@@ -29,7 +29,7 @@ function MainView() {
                 y muevete sin dolor!
               </h1>
               <h2 class="mt-4 text-xl text-gray-500 indent-8">
-                Este año un nuevo producto natural te cuidará de las duras
+                Esta año un nuevo producto natural te cuidará de las duras
                 condiciones del padecimiento articular y te ayudará a recuperar
                 la movilidad para un día a día más productivo.
               </h2>
@@ -51,8 +51,8 @@ function MainView() {
                         </div>
                         <div class="h-64 w-44 overflow-hidden rounded-lg "></div>
                       </div>
-                      <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8 ">
-                        <div class="h-54 w-44 overflow-hidden rounded-lg">
+                      <div class="grid flex-shrink-0 grid-cols-1 gap-y-7 lg:gap-y-8 ">
+                        <div class="h-54 w-44 overflow-hidden rounded-lg  ml-3">
                           <img
                             src={ProductImageII}
                             alt=""
@@ -62,8 +62,8 @@ function MainView() {
 
                         <div class="h-64 w-44 overflow-hidden rounded-lg ">
                           <img
-                            src="#"
-                            alt=""
+                            src=""
+                            alt="imagen del producto"
                             class="h-full w-full object-cover object-center"
                           />
                         </div>
@@ -72,16 +72,19 @@ function MainView() {
                     </div>
                   </div>
                 </div>
-                <a
-                  href="#"
-                  class="inline-flex items-center justify-center rounded-full w-12 h-12 bg-yellow-400 text-white hover:bg-white hover:text-yellow-400">
-                  <i class="fas fa-info">i</i>
-                </a>
-                <a
-                  href="/buy"
-                  class="inline-block rounded-md border border-solid border-2 border-white bg-yellow-400 px-10 py-2 text-center font-medium text-white text-xl hover:bg-white hover:text-yellow-400 ">
-                  <strong>Comprar</strong>
-                </a>
+
+                <div class="flex justify-start items-start -space-x-1">
+                  <a
+                    href="/buy"
+                    class="inline-block rounded-bl-md rounded-br-md rounded-tl-md  border border-solid border-2 border-blue-900 bg-yellow-400 px-10 py-2 text-center font-medium text-white text-xl hover:bg-white hover:text-yellow-400">
+                    <strong>Comprar</strong>
+                  </a>
+                  <a
+                    href="#"
+                    class="inline-flex items-center justify-center rounded-full border-solid border-2 border-blue-900 w-12 h-12 bg-yellow-400 text-white hover:bg-white hover:text-yellow-400 -mt-10 mr-5">
+                    <i class="fas fa-info">i</i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
